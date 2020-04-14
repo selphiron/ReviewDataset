@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package reviewdataset;
 
 import java.io.BufferedReader;
@@ -24,11 +19,6 @@ import java.util.stream.Collectors;
  */
 public class ReviewDataset {
 
-    /**
-     * @param args the command line arguments
-     */
-    
-    
     private static String[] path = 
     {
         "/Users/AlbertSanchez/Desktop/Post/DatasetRides1000/iOS0/",
@@ -48,7 +38,7 @@ public class ReviewDataset {
     private static long maxMS = 500;
         
     public static void main(String[] args) {
-        // TODO code application logic here  
+
         if(path.length==outPath.length)
         {
             for (int i=0; i<path.length; i++)
